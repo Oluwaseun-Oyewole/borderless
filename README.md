@@ -1,4 +1,4 @@
-### Borderless HR assessment
+### Borderless
 
 #### Technologies
 

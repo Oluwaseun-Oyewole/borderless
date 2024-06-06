@@ -2,6 +2,7 @@ import { AxiosError } from "axios";
 import { truncate } from "../helper";
 
 export const handleRequestError = (
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   error: AxiosError | any,
   defaultMessage = "An error occurred."
 ) => {
@@ -18,5 +19,6 @@ export const handleRequestError = (
       error?.message ||
       defaultMessage;
   }
+  return;
   // show toast error  here or an error modal to handle the error
 };

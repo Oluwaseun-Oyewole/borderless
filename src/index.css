@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  background: transparent !important;
+  width: 0px !important;
+}
